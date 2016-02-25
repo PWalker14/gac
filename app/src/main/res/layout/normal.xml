@@ -4,15 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="ru.madboys.guessthecelebrity.Main">
+    tools:context="ru.madboys.guessthecelebrity.Normal">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Нормальный режим"
-        android:onClick="normal"
+        android:text="Спорт"
+        android:onClick="normalSport"
         android:id="@+id/button"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="152dp" />
+
+
 </RelativeLayout>

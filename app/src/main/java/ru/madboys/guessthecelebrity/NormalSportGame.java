@@ -7,12 +7,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-public class Main extends AppCompatActivity {
+public class NormalSportGame extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.normal_sport_game);
 
     }
 
@@ -36,9 +36,5 @@ public class Main extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
-    }
-    public void normal(View view) {
-        Intent intent = new Intent(Main.this, Normal.class);
-        startActivity(intent);
     }
 }

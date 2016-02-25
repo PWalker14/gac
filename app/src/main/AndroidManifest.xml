@@ -18,6 +18,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Normal"
+            android:label="@string/title_activity_normal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NormalSport"
+            android:label="@string/title_activity_normal_sport"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NormalSportGame"
+            android:label="@string/title_activity_normal_sport_game"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
