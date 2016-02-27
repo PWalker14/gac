@@ -6,15 +6,19 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageView;
 
 public class NormalSportGame extends AppCompatActivity {
+    private ImageView mImageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.normal_sport_game);
-
+        mImageView = (ImageView) findViewById(R.id.imageView);
+        mImageView.setImageResource(R.drawable.jonny_depp);
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

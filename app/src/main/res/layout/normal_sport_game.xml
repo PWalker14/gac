@@ -8,9 +8,10 @@
 
 
     <ImageView
-        android:layout_width="100pt"
-        android:layout_height="100pt"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
         android:id="@+id/imageView"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp" />
 </RelativeLayout>
