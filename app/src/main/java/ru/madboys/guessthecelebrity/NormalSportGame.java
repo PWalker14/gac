@@ -1,22 +1,26 @@
 package ru.madboys.guessthecelebrity;
 
-import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.ImageView;
 
 public class NormalSportGame extends AppCompatActivity {
     private ImageView mImageView;
+    Drawable drw;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.normal_sport_game);
+        //drw = getDrawable(R.drawable.c1);
         mImageView = (ImageView) findViewById(R.id.imageView);
-        mImageView.setImageResource(R.drawable.jonny_depp);
+        mImageView.setImageResource(R.drawable.c1);
+        //ContextCompat.getDrawable(this, R.drawable.c1);
+        //mImageView.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.c1));
     }
 
 

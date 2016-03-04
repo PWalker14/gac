@@ -10,6 +10,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".Main"
+            android:screenOrientation="portrait"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -21,15 +22,18 @@
         <activity
             android:name=".Normal"
             android:label="@string/title_activity_normal"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".NormalSport"
             android:label="@string/title_activity_normal_sport"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".NormalSportGame"
             android:label="@string/title_activity_normal_sport_game"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
